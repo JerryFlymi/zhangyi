@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设备"
+        android:background="#ff9900"
+        android:gravity="right"
+        android:paddingRight="15dp"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/bt_band"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手环"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跑步机"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff5"/>
+</LinearLayout>

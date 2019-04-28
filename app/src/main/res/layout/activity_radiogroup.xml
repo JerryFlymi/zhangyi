@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:id="@+id/fl_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line"/>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_above="@+id/ll"
+        />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="horizontal"
+        >
+        <RadioGroup
+            android:id="@+id/RG_nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text=" "/>
+            <RadioButton
+                android:id="@+id/rbt_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_item1"
+                android:layout_gravity="center"
+                android:button="@null"
+                />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text=" "/>
+            <RadioButton
+                android:id="@+id/rbt_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:background="@drawable/selector_item2"
+                android:button="@null"
+                />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text=" "/>
+            <RadioButton
+                android:id="@+id/rbt_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_item3"
+                android:button="@null"
+                />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text=" "/>
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>
